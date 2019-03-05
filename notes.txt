@@ -1,0 +1,26 @@
+https://github.com/matterport/Mask_RCNN/tree/master/samples/balloon
+
+https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46
+
+https://jhui.github.io/2017/03/16/CNN-Convolutional-neural-network/
+
+sample mask commands
+
+
+tensorboard command
+
+
+tensorboard --logdir=path/to/log-directory
+
+python floor.py train --dataset=floor --weights=last --log=model 
+
+log is for the folder to save the model in
+weights is used to show what preweight train to do it in
+
+if train from coco just enter in coco instead of last
+
+
+need to make processing video parallel
+finsh labeling software
+
+good epoches-161
